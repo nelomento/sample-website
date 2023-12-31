@@ -1,0 +1,62 @@
+*{
+    color: rgb(74,75,67);
+}
+body{
+    font-family: 'Times New Roman', Times, serif;
+    max-width: 100%;
+}
+h1{
+    font-family: 'Courier New', Courier, monospace;
+}
+.nav-link:hover,
+.dropdown-item:hover{
+    border-bottom: 1px solid black;
+    padding-bottom: 2px;
+}
+header{
+    background-color: aquamarine;
+}
+@media screen and (min-width: 768p){
+    .header-name {
+        font-size: 7rem important;
+    }
+    .hero{
+        width: 50% !important;
+    }
+
+    
+}
+.header-name{
+    font-size: 7rem;
+    font-weight: 400;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.btn{
+    border-radius: 0;
+    padding-inline:1.5rem 1.5rem;
+    text-transform: uppercase;
+    font-family: 'Times New Roman', Times, serif;
+    letter-spacing: 10px;
+}
+.card{
+    border: none;
+}
+.card-text{
+    font-family: sans-serif;
+}
+.card-image-top{
+    width: 23%;
+}
+.sec-two, .sec-five {
+    background-color: rgb(243,243, 242);
+}
+.sec-four{
+    background-color: rgb(135, 135,128);
+}
+footer{
+    background-color: rgb(74,75,67);
+    max-width: 100%;
+}
+.psych-help{
+    width: 20%;
+}

@@ -1,0 +1,121 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+
+  nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 5%;
+    align-items: center;
+    background-color: var(--mainWhite);
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+ul{
+    display: flex;
+    list-style: none;
+    gap: 0.75rem;
+    font-size: 1.05rem;
+}
+.nav-list a{
+    color: var(--mainBlack);
+    letter-spacing: var(--mainSpacing);
+}
+.nav-list a:hover{
+    color: var(--primaryColor);
+}
+.nav-icons{
+    display: flex;
+    align-items: center;
+    gap: 0.65rem;
+}
+
+.nav-icons a{
+    font-size: 1.35rem;
+    color: var(--primaryColor);
+    transition: var(--mainTransition);
+}
+
+.nav-icons a:hover{
+    opacity: 0.5;
+}
+
+/*hero image*/
+header{
+    background-image:linear-gradient(rgba(63,208,212,0.7),rgba(0,0,0,0.7)), url(../images/main.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+}
+.content{
+    width: 65%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: var(--mainWhite);
+    text-align: center;
+}
+.content h2{
+    text-transform: uppercase;
+    font-size: 4.5rem;
+    font-weight: 600;
+}
+.content p{
+    font-size: 1.35rem;
+    margin: 0.75rem 0;
+    font-family: latto font;
+    font-weight: 300;
+    letter-spacing: var(--mainSpacing);
+}
+.content a{
+    background-color: var(--mainWhite);
+    color: var(--primaryColor);
+    display: inline-block;
+    padding: 1rem 2.5rem;
+    font-size: 1.75rem;
+    text-transform: uppercase;
+    border: 2px solid var(--mainWhite);
+    letter-spacing: 3px;
+}
+.content a:hover{
+    background-color: transparent;
+    color: var(--mainWhite);
+    transition: var(--mainTransition);
+}
+button{
+    width: 100px;
+    height: 50px;
+    text-transform: uppercase;
+    font-size: large;
+    letter-spacing: 3px;
+    border: 2px solid black;
+}
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .product {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin: 10px;
+    text-align: center;
+  }
+  
+  @media (min-width: 768px) {
+    .product {
+      width: calc(33.3333% - 20px);
+    }
+  }
+  

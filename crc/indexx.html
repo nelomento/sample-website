@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>domo app</title>
+    <link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+    <div id="main">
+        <div class="child sidebar">
+            <div id="app-name">Live capture</div>
+
+            <div id="page-container">
+
+            </div>
+
+            <div id="new-page" onclick="add_page()">New page</div>
+
+        </div>
+        <div class="child main">
+            <div id="navbar">
+                <div id="page_title">Untitled</div>
+                <div id="nav-right">
+                    <div class="nav-child">Refresh</div>
+                    <div class="nav-child">Delete Page</div>
+                </div>
+            </div>
+            <div id="task-container">
+                <div id="inner-task-container">
+
+                    <div id="task-container-top">
+                        <input type="text" id="page_name" oninput="update_page_name()" placeholder="Untitled">
+                        <div id="add-task" onclick="add_task()">+Add task</div>
+                    </div>
+
+                    <div id="all-task">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="./js/index.js"></script>
+</body>
+</html>
